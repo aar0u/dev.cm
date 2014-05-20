@@ -1,0 +1,218 @@
+/* line 4, ../../jhc-study/10.1/scss/cube3s.scss */
+.container {
+  width: 100%;
+  -webkit-perspective: 800;
+  -moz-perspective: 800;
+  -ms-perspective: 800;
+  -o-perspective: 800;
+  perspective: 800;
+  -webkit-perspective-origin: 50% 225px;
+  -moz-perspective-origin: 50% 225px;
+  -ms-perspective-origin: 50% 225px;
+  -o-perspective-origin: 50% 225px;
+  perspective-origin: 50% 225px; }
+
+/* line 9, ../../jhc-study/10.1/scss/cube3s.scss */
+.content {
+  width: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+/* line 14, ../../jhc-study/10.1/scss/cube3s.scss */
+.shape-3d {
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  top: 160px;
+  width: 200px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+
+/* line 23, ../../jhc-study/10.1/scss/cube3s.scss */
+.panel {
+  background: rgba(48, 141, 191, 0.4);
+  border: 1px solid white;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: #fdfdfd;
+  font-family: Times, serif;
+  font-size: 11em;
+  height: 200px;
+  position: absolute;
+  opacity: .5;
+  text-align: center;
+  width: 200px; }
+
+/* line 38, ../../jhc-study/10.1/scss/cube3s.scss */
+.shape-3d {
+  -webkit-animation: spin 12s linear 0s infinite normal none;
+  -moz-animation: spin 12s linear 0s infinite normal none;
+  -o-animation: spin 12s linear 0s infinite normal none;
+  -ms-animation: spin 12s linear 0s infinite normal none;
+  animation: spin 12s linear 0s infinite normal none; }
+
+@-webkit-keyframes spin {
+  /* line 45, ../../jhc-study/10.1/scss/cube3s.scss */
+  0% {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+    transform: rotateY(0); }
+
+  /* line 48, ../../jhc-study/10.1/scss/cube3s.scss */
+  100% {
+    -webkit-transform: rotateY(-360deg);
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    -o-transform: rotateY(-360deg);
+    transform: rotateY(-360deg); } }
+
+@-moz-keyframes spin {
+  /* line 45, ../../jhc-study/10.1/scss/cube3s.scss */
+  0% {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+    transform: rotateY(0); }
+
+  /* line 48, ../../jhc-study/10.1/scss/cube3s.scss */
+  100% {
+    -webkit-transform: rotateY(-360deg);
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    -o-transform: rotateY(-360deg);
+    transform: rotateY(-360deg); } }
+
+@-ms-keyframes spin {
+  /* line 45, ../../jhc-study/10.1/scss/cube3s.scss */
+  0% {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+    transform: rotateY(0); }
+
+  /* line 48, ../../jhc-study/10.1/scss/cube3s.scss */
+  100% {
+    -webkit-transform: rotateY(-360deg);
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    -o-transform: rotateY(-360deg);
+    transform: rotateY(-360deg); } }
+
+@keyframes spin {
+  /* line 45, ../../jhc-study/10.1/scss/cube3s.scss */
+  0% {
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+    transform: rotateY(0); }
+
+  /* line 48, ../../jhc-study/10.1/scss/cube3s.scss */
+  100% {
+    -webkit-transform: rotateY(-360deg);
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    -o-transform: rotateY(-360deg);
+    transform: rotateY(-360deg); } }
+
+/* ---------- cube styles ------------- */
+/* line 59, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .one {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
+  -moz-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
+  -ms-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
+  -o-transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px);
+  transform: scale3d(1.2, 1.2, 1.2) rotateX(90deg) translateZ(100px); }
+/* line 66, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .two {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
+  -moz-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
+  -ms-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
+  -o-transform: scale3d(1.2, 1.2, 1.2) translateZ(100px);
+  transform: scale3d(1.2, 1.2, 1.2) translateZ(100px); }
+/* line 73, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .three {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
+  -moz-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
+  -ms-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
+  -o-transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px);
+  transform: scale3d(1.2, 1.2, 1.2) rotateY(90deg) translateZ(100px); }
+/* line 80, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .four {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
+  -moz-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
+  -ms-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
+  -o-transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px);
+  transform: scale3d(1.2, 1.2, 1.2) rotateY(180deg) translateZ(100px); }
+/* line 87, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .five {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
+  -moz-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
+  -ms-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
+  -o-transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px);
+  transform: scale3d(1.2, 1.2, 1.2) rotateY(-90deg) translateZ(100px); }
+/* line 94, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .six {
+  -webkit-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg);
+  -moz-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg);
+  -ms-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg);
+  -o-transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg);
+  transform: scale3d(1.2, 1.2, 1.2) rotateX(-90deg) translateZ(100px) rotate(180deg); }
+/* line 101, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .seven {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg);
+  -moz-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg);
+  -ms-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg);
+  -o-transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg);
+  transform: scale3d(0.8, 0.8, 0.8) rotateX(90deg) translateZ(100px) rotate(180deg); }
+/* line 108, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .eight {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8) translateZ(100px);
+  -moz-transform: scale3d(0.8, 0.8, 0.8) translateZ(100px);
+  -ms-transform: scale3d(0.8, 0.8, 0.8) translateZ(100px);
+  -o-transform: scale3d(0.8, 0.8, 0.8) translateZ(100px);
+  transform: scale3d(0.8, 0.8, 0.8) translateZ(100px); }
+/* line 115, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .nine {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px);
+  -moz-transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px);
+  -ms-transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px);
+  -o-transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px);
+  transform: scale3d(0.8, 0.8, 0.8) rotateY(90deg) translateZ(100px); }
+/* line 122, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .ten {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px);
+  -moz-transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px);
+  -ms-transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px);
+  -o-transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px);
+  transform: scale3d(0.8, 0.8, 0.8) rotateY(180deg) translateZ(100px); }
+/* line 129, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .eleven {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px);
+  -moz-transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px);
+  -ms-transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px);
+  -o-transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px);
+  transform: scale3d(0.8, 0.8, 0.8) rotateY(-90deg) translateZ(100px); }
+/* line 136, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .twelve {
+  -webkit-transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px);
+  -moz-transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px);
+  -ms-transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px);
+  -o-transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px);
+  transform: scale3d(0.8, 0.8, 0.8) rotateX(-90deg) translateZ(100px); }
+/* line 143, ../../jhc-study/10.1/scss/cube3s.scss */
+.cube .wakamsha {
+  background: url(../img/myLogo.jpg) no-repeat;
+  background-size: 200px 200px;
+  color: #666;
+  opacity: .8; }

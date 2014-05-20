@@ -1,0 +1,70 @@
+/* line 4, ../../jhc-study/13/scss/uitableview.scss */
+.tableview {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%; }
+  /* line 10, ../../jhc-study/13/scss/uitableview.scss */
+  .tableview dl {
+    margin: 0;
+    min-height: 1px;
+    overflow: hidden;
+    padding: 24px 0 0;
+    position: relative; }
+    /* line 17, ../../jhc-study/13/scss/uitableview.scss */
+    .tableview dl.animated dt {
+      bottom: 0;
+      top: auto; }
+  /* line 23, ../../jhc-study/13/scss/uitableview.scss */
+  .tableview dt {
+    bottom: auto;
+    min-height: 1px;
+    top: 0; }
+  /* line 28, ../../jhc-study/13/scss/uitableview.scss */
+  .tableview dd {
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 45px;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap; }
+    /* line 36, ../../jhc-study/13/scss/uitableview.scss */
+    .tableview dd + dd {
+      border-top: 1px solid #ccc; }
+
+/* line 42, ../../jhc-study/13/scss/uitableview.scss */
+.tableview-wrapper {
+  font-family: Helvetica, Arial, sans-serif;
+  height: 300px;
+  overflow: visible;
+  position: relative;
+  zoom: 1; }
+  /* line 48, ../../jhc-study/13/scss/uitableview.scss */
+  .tableview-wrapper .dummy-header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    z-index: 1000; }
+    /* line 52, ../../jhc-study/13/scss/uitableview.scss */
+    .tableview-wrapper .dummy-header.hidden {
+      visibility: hidden; }
+
+/* line 58, ../../jhc-study/13/scss/uitableview.scss */
+.tableview-wrapper .dummy-header,
+.tableview dt {
+  background: #B8C1C8;
+  background: rgba(184, 193, 200, 0.85);
+  border-bottom: 1px solid #989EA4;
+  border-top: 1px solid #717D85;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-top: 0;
+  padding: 2px 0 0 12px;
+  position: absolute;
+  text-shadow: 0 1px rgba(58, 58, 58, 0.8);
+  width: 100%; }

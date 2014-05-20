@@ -1,0 +1,50 @@
+/* line 4, ../../jhc-study/06/scss/common.scss */
+body {
+  height: 3300px; }
+
+/* line 7, ../../jhc-study/06/scss/common.scss */
+h1 {
+  font-size: 100%; }
+
+/* line 10, ../../jhc-study/06/scss/common.scss */
+.indicator {
+  position: fixed;
+  right: 10px;
+  top: 10px; }
+
+/* line 4, ../../jhc-study/06/scss/bgscroll.scss */
+.indicator {
+  background: rgba(255, 255, 255, 0.8); }
+
+/* line 7, ../../jhc-study/06/scss/bgscroll.scss */
+div {
+  height: 1050px; }
+  /* line 9, ../../jhc-study/06/scss/bgscroll.scss */
+  div p {
+    color: #fff;
+    margin: 0;
+    padding: 8px; }
+
+/* line 15, ../../jhc-study/06/scss/bgscroll.scss */
+#area1 {
+  background: url(../img/bg-parallaxsample01.jpg) repeat-x; }
+
+/* line 16, ../../jhc-study/06/scss/bgscroll.scss */
+#area2 {
+  background: url(../img/bg-parallaxsample02.jpg) repeat-x; }
+
+/* line 17, ../../jhc-study/06/scss/bgscroll.scss */
+#area3 {
+  background: url(../img/bg-parallaxsample03.jpg) repeat-x; }
+
+/* line 18, ../../jhc-study/06/scss/bgscroll.scss */
+#area4 {
+  background: url(../img/bg-parallaxsample04.jpg) repeat-x; }
+
+/* line 19, ../../jhc-study/06/scss/bgscroll.scss */
+#ashColorArea {
+  background: #666; }
+
+/* line 20, ../../jhc-study/06/scss/bgscroll.scss */
+#redColorArea {
+  background: #900; }

@@ -1,0 +1,36 @@
+/* line 11, ../../jhc-study/14/scss/uiplugin.scss */
+.box {
+  border-radius: 50px;
+  background: #333333;
+  box-shadow: 0 20px 40px #888888;
+  height: 100px;
+  margin: 0 auto 10px;
+  overflow: hidden;
+  width: 100px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  /* line 20, ../../jhc-study/14/scss/uiplugin.scss */
+  .box:hover {
+    cursor: pointer; }
+  /* line 23, ../../jhc-study/14/scss/uiplugin.scss */
+  .box p {
+    color: #fff;
+    text-align: center; }
+
+/* line 29, ../../jhc-study/14/scss/uiplugin.scss */
+.btn .black {
+  background: black; }
+/* line 32, ../../jhc-study/14/scss/uiplugin.scss */
+.btn .black {
+  background: #333333; }
+/* line 35, ../../jhc-study/14/scss/uiplugin.scss */
+.btn .pink {
+  background: #ff358b; }
+/* line 38, ../../jhc-study/14/scss/uiplugin.scss */
+.btn .blue {
+  background: #01b0f0; }
+/* line 41, ../../jhc-study/14/scss/uiplugin.scss */
+.btn .green {
+  background: #aeee00; }

@@ -1,0 +1,54 @@
+/* line 4, ../../jhc-study/10/scss/translate1.scss */
+ul {
+  width: 730px;
+  margin: 60px auto;
+  padding: 0; }
+
+/* line 9, ../../jhc-study/10/scss/translate1.scss */
+li {
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 150px;
+  line-height: 150px;
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  width: 150px;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+/* line 22, ../../jhc-study/10/scss/translate1.scss */
+.t1 {
+  background: #01b0f0; }
+  /* line 24, ../../jhc-study/10/scss/translate1.scss */
+  .t1:hover {
+    -webkit-transform: translate(400px, 1em);
+    -moz-transform: translate(400px, 1em);
+    -ms-transform: translate(400px, 1em);
+    -o-transform: translate(400px, 1em);
+    transform: translate(400px, 1em); }
+
+/* line 28, ../../jhc-study/10/scss/translate1.scss */
+.t2 {
+  background: #ff3588; }
+  /* line 30, ../../jhc-study/10/scss/translate1.scss */
+  .t2:hover {
+    -webkit-transform: translate(100px, 400px);
+    -moz-transform: translate(100px, 400px);
+    -ms-transform: translate(100px, 400px);
+    -o-transform: translate(100px, 400px);
+    transform: translate(100px, 400px); }
+
+/* line 34, ../../jhc-study/10/scss/translate1.scss */
+.t3 {
+  background: #aeee00; }
+  /* line 36, ../../jhc-study/10/scss/translate1.scss */
+  .t3:hover {
+    -webkit-transform: translate(-400px, -100px);
+    -moz-transform: translate(-400px, -100px);
+    -ms-transform: translate(-400px, -100px);
+    -o-transform: translate(-400px, -100px);
+    transform: translate(-400px, -100px); }
