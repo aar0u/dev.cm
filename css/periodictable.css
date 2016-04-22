@@ -284,7 +284,7 @@ kbd,
 /* info
  * ---------------------------------------------- */
 .info {
-  /*background: url(img/19.png) white;*/
+  background-color: white;
   border-radius: .3em;
   box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.6);
   display: none;
