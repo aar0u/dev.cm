@@ -299,8 +299,8 @@
 				"descJp":   "カーソル位置から行の先頭までの文字列を削除します。",
 				"descEn":   "Delete from cursor to start of line.",
 				"descCn":   "删除光标前行内容.",
-				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd>+<kbd>⌫</kbd>",
-				"keypressMac": "<kbd>&#x2318;</kbd>+<kbd>K</kbd>+<kbd>⌫</kbd>"
+				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>⌫</kbd>",
+				"keypressMac": "<kbd>&#x2318;</kbd>+<kbd>K</kbd><kbd>⌫</kbd>"
 			},
 			{
 				"descJp":   "選択している行のインデントを一つ下げます。（※複数行可能）",
@@ -380,14 +380,14 @@
 			{
 				"descJp":   "全てのタグを折りたたみます。",
 				"descEn":   "Fold tag Attributes.",
-				"descCn":   "折叠代码.",
+				"descCn":   "折叠标签属性.",
 				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>T</kbd>",
 				"keypressMac": "<kbd>&#x2318;</kbd>+<kbd>K</kbd><kbd>T</kbd>"
 			},
 			{
 				"descJp":   "折りたたまれたタグを元に戻します。",
 				"descEn":   "Unfold All tags.",
-				"descCn":   "取消代码折叠.",
+				"descCn":   "取消所有折叠.",
 				"keypress": "<kbd>Ctrl</kbd>+<kbd>K</kbd><kbd>J</kbd>",
 				"keypressMac": "<kbd>&#x2318;</kbd>+<kbd>K</kbd><kbd>J</kbd>"
 			}

@@ -1,2 +1,5 @@
+**Sublime Text 快捷键列表**
 
-+ cheatsheet | [Sublime Textの習得に役立つショートカットキーのチートシートを作ってみた(Mac OS X / Windows)](http://dev.classmethod.jp/tool/sublimetext-cheatsheet/)
+**[[Cheat Sheet]](http://aar0u.github.io/sublimetext-cheatsheet/) - [[Source]](https://github.com/aar0u/sublimetext-cheatsheet)**
+
+[![image](img/sublime_shortcut_win.png)](img/sublime_shortcut_win.png)
